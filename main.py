@@ -1,5 +1,6 @@
 import pygame as pg
 import random
+import time
 
 # Настройки игры
 FPS = 25
@@ -41,6 +42,7 @@ def main():
 
     figure = random.choice(list(FIGURES.values()))
     x, y = SIDE_MARGIN, TOP_MARGIN
+    last_fall = time.time()
 
     while True:
         for event in pg.event.get():
@@ -54,6 +56,10 @@ def main():
                     x += BLOCK_SIZE
                 elif event.key == pg.K_DOWN:
                     y += BLOCK_SIZE
+
+        if time.time() - last_fall > 1:  # Фигура падает каждую секунду
+            y += BLOCK_SIZE
+            last_fall = time.time()
 
         display_surf.fill((0, 0, 0))  # Черный фон
         draw_cup()
