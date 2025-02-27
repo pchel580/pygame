@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a2a6abad-adf4-4e61-b2bb-ae0fed1b2e9f" name="Changes" comment="з">
+    <list default="true" id="a2a6abad-adf4-4e61-b2bb-ae0fed1b2e9f" name="Changes" comment="почти готово">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -149,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740401712763</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="почти готово">
+      <option name="closed" value="true" />
+      <created>1740487348060</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1740487348060</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +178,7 @@
     <MESSAGE value="sasd" />
     <MESSAGE value="j" />
     <MESSAGE value="з" />
-    <option name="LAST_COMMIT_MESSAGE" value="з" />
+    <MESSAGE value="почти готово" />
+    <option name="LAST_COMMIT_MESSAGE" value="почти готово" />
   </component>
 </project>
